@@ -20,13 +20,15 @@ html {
 
 @media screen and (max-width: 424px) {
   
-  #subtitle {
-    margin: 10% 5%;
+  div.subtitle {
+    margin: 5% 5%;
+    top: 45%;
     padding: 0;
   }
 
-  #title {
-    font-size: 25px;
+  div.title {
+    font-size: 45px;
+    margin-top: -180px;
   }
 
 }
@@ -88,7 +90,7 @@ html {
   box-shadow: 6px 6px 40px 5px rgb(79 124 244 / 34%); 
 }
 
-#title {
+.title {
   position: absolute;
   top: 50%;
   left: 0;
@@ -99,9 +101,9 @@ html {
   font-size: 50px;
   letter-spacing: 2px;
   margin-top: -60px;
-  padding-left: 10px;
+  padding: 10px;
 }
-#subtitle {
+.subtitle {
   position: absolute;
   top: 55%;
   left: 0;
@@ -114,7 +116,7 @@ html {
   padding: 0 10%;
 }
 
-#subtitle p {
+.subtitle p {
   padding: 20px 0;
 }
 #stars {
@@ -682,6 +684,7 @@ html {
       transform: translateY(-2000px);
   }
 }
+
 
 
 

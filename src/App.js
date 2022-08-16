@@ -44,7 +44,7 @@ function App() {
         <div class="loader">
           <PropagateLoader class="load" size={25} color={"#f5f5f5"} loading={loading} speedMultiplier={0.8} />
           <h2>Please Wait</h2>
-        </div> 
+        </div>
         :
         <>
           <motion.div
@@ -56,20 +56,20 @@ function App() {
             <div id="stars"></div>
             <div id="stars2"></div>
             <div id="stars3"></div>
-            <div id="title">
+            <div class="title">
                 <Section>
                   <span><b>Web 3.0 Cohort Course</b></span>
                 </Section>
                 <br />
             </div>
-            <div id="subtitle">
+            <div class="subtitle">
                 <Section>
                   <p>
                   A 6 week cohort-based program that will build your knowledge around Web3, crypto, NFTs with a community that is a hub for the Web3 experts & enthusiasts.
                   </p>
                   <a class="enroll-button"><b>Enroll Now</b></a>
-                </Section> 
-            </div>       
+                </Section>
+            </div>
           </section>
           <div class="components">
             <Section><Partners /></Section>
