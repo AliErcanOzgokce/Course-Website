@@ -1,0 +1,25 @@
+.Partners {
+    margin: 15px auto;
+    width: 80%;
+    max-width: 100%;
+    padding: 10px 10%;
+    /* height: 250px; */
+    background: rgb(37, 36, 36);
+    border-radius: 15px;
+}
+
+.Partners h1 {
+    background: linear-gradient( #b21f1f, #fdbb2d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.partners-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}

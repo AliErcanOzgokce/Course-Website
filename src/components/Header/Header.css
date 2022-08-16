@@ -1,0 +1,64 @@
+.Header {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.walletConnected {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.walletConnected h4 {
+    margin: 0;
+    color: rgb(0, 255, 0)
+}
+
+.max-lines {
+  white-space: nowrap;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 170px;
+}
+
+.blockies {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.Header-button {
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    list-style: none;
+    transition: 1.5s;
+    border-radius: 15px;
+}
+
+.Header-button:hover {
+    border-radius: 15px;   
+    padding: 10px 40px;  
+    align-items: center;
+    color: gray;
+}
+
+@media screen and (max-width: 424px) {
+    .Header-button {
+        display: none;
+    }
+
+    .Header {
+        justify-content: center;
+    }
+
+    
+}
