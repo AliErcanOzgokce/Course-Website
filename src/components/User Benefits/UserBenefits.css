@@ -1,0 +1,45 @@
+.UserBenefits {
+    margin: 15px auto;
+    width: 80%;
+    max-width: 100%;
+    padding: 10px 10%;
+    /* height: 250px; */
+    border-radius: 15px;
+}
+@media screen and (max-width: 424px) {
+    div.benefit {
+        width: 100%;
+    }  
+}
+
+
+.UserBenefits h1 {
+    
+    color: whitesmoke;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.UserBenefits b {
+    color: wheat;
+}
+
+.benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.benefit {
+    padding: 50px;
+    width: 20%;
+    border: 0.5px solid hsla(0,0%,100%,.49);
+    border-radius: 15px;
+}
+
+.benefit p {
+    color: gray;
+}
+

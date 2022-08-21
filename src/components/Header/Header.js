@@ -1,6 +1,5 @@
 import logo from '../../logo.png';
 import { useState } from 'react';
-import { motion } from "framer-motion";
 import "./Header.css";
 import {data} from "./Agreement";
 import blockies from "../logos/blockies.png";

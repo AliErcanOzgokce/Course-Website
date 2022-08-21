@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'thicccboi';
+  src: url('../public/fonts/thicccboi-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body {
   margin: 0;
-  font-family: 'Mitr', sans-serif;
+  font-family: 'thicccboi';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

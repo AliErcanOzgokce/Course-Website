@@ -4,15 +4,12 @@
     width: 80%;
     max-width: 100%;
     /* height: 1160px; */
-    background: rgb(37, 36, 36);
     border-radius: 15px;
 }
 
 .FAQ h1 {
-    background: linear-gradient( #b21f1f, #fdbb2d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-clip: text;
-    color: transparent;
-    font-size: 30px;
+    color: wheat;
+    font-size: 45px;
     text-align: center;
 }
 

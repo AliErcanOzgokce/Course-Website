@@ -5,7 +5,7 @@ export default function WCF() {
         <div class="WCF">
             <div class="WCF-container">
                 <div class="WCF-content">
-                    <h1>Who Is This Course For?</h1>
+                    <h1><b>Who</b> Is This Course For?</h1>
                     <p>
                     Anyone who is curious to learn about Web 3.0 and explore the plethora of opportunities.
                     </p>
