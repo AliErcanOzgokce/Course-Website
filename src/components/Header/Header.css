@@ -51,7 +51,7 @@
     color: gray;
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 760px) {
     .Header-button {
         display: none;
     }

@@ -6,7 +6,7 @@
     /* height: 250px; */
     border-radius: 15px;
 }
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 675px) {
     div.benefit {
         width: 100%;
     }  
