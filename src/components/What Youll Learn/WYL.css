@@ -14,9 +14,7 @@
 }
 
 .WYL b {
-    background-image: linear-gradient(to right bottom, #ea33ef, #df2cef, #d426ef, #c820f0, #bc1af0, #9250fe, #6369ff, #277aff, #009bff, #00b6ff, #00cfff, #6be4fb);    
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #FFD8A9;
 }
 
 .WYL-container {

@@ -41,16 +41,21 @@ export default function Header() {
     return (
         <div class="Header">
             <img src={logo} class="Header-logo" alt="logo" />
-            <a class="Header-button" onClick={connectWallet}>
-                {!!accountAddress ?
-                    <div class="walletConnected">
-                        <img class="blockies" src={blockies} />
-                        <p class="max-lines">{accountAddress}</p>
-                        <h4>Connected !</h4>
-                    </div>                   
-                : 
-                "Connect Wallet"}
-            </a>
+            {
+                /*
+                <a class="Header-button" onClick={connectWallet}>
+                    {!!accountAddress ?
+                        <div class="walletConnected">
+                            <img class="blockies" src={blockies} />
+                            <p class="max-lines">{accountAddress}</p>
+                            <h4>Connected !</h4>
+                        </div>                   
+                    : 
+                    "Connect Wallet"}
+                </a>
+                */
+            }
+            
         </div>
     );
 }

@@ -74,21 +74,23 @@ function App() {
                   <br />
               </div>
             <div class="subtitle">
-                <Section>
+                <Fade bottom>
                   <p>
                   A 6 week cohort-based program that will build your knowledge around Web3, crypto, NFTs with a community that is a hub for the Web3 experts & enthusiasts.
                   </p>
-                  <a class="enroll-button"><b>Enroll Now</b></a>
-                </Section> 
+                  
+                </Fade>
+                <Section><a class="enroll-button"><b>Enroll Now</b></a> </Section>
+                
             </div>       
           </section>
           <div class="components">
             <Section><WhyUs /></Section>
-            <Section><Partners /></Section>
             <Section><UserBenefits /></Section>
             <Section><ProgramStructure /></Section>
             <Section><WYL /></Section>
             <Section><WCF /></Section>
+            <Section><Partners /></Section>
             <Section><FAQ /></Section>
             <small>© 2022 ÖZGÖKÇE Development, All Rights Reserved</small>
           </div>

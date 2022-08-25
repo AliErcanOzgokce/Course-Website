@@ -28,9 +28,7 @@
 }
 
 .WhyUs b {
-    background-image: linear-gradient(to right bottom, #ea33ef, #df2cef, #d426ef, #c820f0, #bc1af0, #9250fe, #6369ff, #277aff, #009bff, #00b6ff, #00cfff, #6be4fb);    
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #FFD8A9;
 }
 
 .WhyUs-container {
@@ -41,8 +39,8 @@
 }
 
 .WhyUs-item {
-    padding: 50px;
-    width: 20%;
+    padding: 20px;
+    width: 43%;
     border: 0.5px solid hsla(0,0%,100%,.49);
     border-radius: 15px;
 }
